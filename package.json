@@ -1,0 +1,31 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "Sistema de gerenciamento de tarefas com CRUD completo, backend em Node.js puro e frontend estilizado com Tailwind CSS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogereichert/to-do.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogereichert/to-do/issues"
+  },
+  "homepage": "https://github.com/rogereichert/to-do#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
